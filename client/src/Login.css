@@ -1,0 +1,77 @@
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background: linear-gradient(to bottom, #a0cfff, #1e88e5); */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sign-up-form {
+    width: 400px;
+    background-color: #f4f4f4;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-columns {
+    display: flex;
+  }
+  
+  .form-column {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #1e88e5; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #005cb2; 
+  }
+  
+  p {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  p a:hover {
+    text-decoration: underline;
+  }
+
+  .forgot-password-link {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    color: #ffffff; 
+  }
+  
